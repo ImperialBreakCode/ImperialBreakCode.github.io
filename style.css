@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #f1f1f1;
+}
+
+h1{
+    font-size: 30px;
+    padding: 35px;
+    background: #313194;
+    color: #eceeff;
+    margin: 0;
+}
+
+h2{
+    font-size: 25px;
+    color: #313194;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.section-col-one h2{
+    margin-bottom: 15px;
+    border-bottom: 1px solid #c9c9c9;
+}
+
+.section-col-one{
+    margin-bottom: 30px;
+}
+
+h3{
+    font-size: 20px;
+}
+
+main{
+    margin: 20px;
+}
+
+.c-gray{
+    background-color: #e7e7e7;
+}
