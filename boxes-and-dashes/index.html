@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dots and dashes</title>
+        <script type="module" crossorigin src="assets/index-BWEs0asu.js"></script>
+        <link rel="stylesheet" crossorigin href="assets/index-C5hnAFg1.css">
+    </head>
+
+    <body>
+
+        <div class="modal fade" id="add-player-modal" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <p class="modal-title">Add a new player</p>
+                    </div>
+                    <div class="modal-body">
+
+                        <div class="d-flex flex-column align-items-center">
+                            <form id="new-user-form">
+                                <input type="text" name="username" placeholder="username" required>
+                                <input type="email" name="email" placeholder="email">
+                                <input type="number" name="age" placeholder="age">
+                                <button class="app-btn mt-3">Save</button>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="player-modal" tabindex="-1">
+            <div class="modal-dialog modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <p id="player-modal-title" class="modal-title">Choose player 1:</p>
+                    </div>
+                    <div class="modal-body">
+
+                        <button id="add-player-btn" class="app-btn mb-2">Add new player <i
+                                class="bi bi-plus-lg"></i></button>
+                        <div id="users-container">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1>Dots and boxes</h1>
+                </div>
+            </div>
+
+            <div id="play-again" class="row d-none">
+                <div class="col d-flex justify-content-center align-items-center">
+                    <button id="play-again-btn"><i class="bi bi-arrow-clockwise"></i> Play again</button>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col d-flex justify-content-center">
+                    <div class="player-box player-box-1">
+                        <i class="bi bi-person"></i>
+                        <div class="player-box-right">
+                            <p>player 1</p>
+                            <p>username1</p>
+                        </div>
+                        <div class="points ms-auto">0</div>
+                    </div>
+                </div>
+
+                <div id="winner-col" class="col d-none">
+                    <div>
+                        <p>winner</p>
+                        <p id="winner-username">name</p>
+                    </div>
+                </div>
+
+                <div class="col d-flex justify-content-center">
+                    <div class="player-box">
+                        <i class="bi bi-person"></i>
+                        <div class="player-box-right">
+                            <p>player 2</p>
+                            <p>username2</p>
+                        </div>
+                        <div class="points ms-auto">0</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col d-flex justify-content-center">
+                    <div id="board-cont" class="game-container">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </body>
+
+</html>
